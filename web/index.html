@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="carpriceprediction">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Car Price Prediction</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBA4Qqy3c1zggcphmSwKoBdX6qLwG6Jk_Y",
+      authDomain: "carpriceprediction-ed6b0.firebaseapp.com",
+      projectId: "carpriceprediction-ed6b0",
+      storageBucket: "carpriceprediction-ed6b0.appspot.com",
+      messagingSenderId: "451634310784",
+      appId: "1:451634310784:web:4f57ada2460d11c28b4065",
+      measurementId: "G-E65XFNFWTW"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Set base href for routing -->
+  <base href="$FLUTTER_BASE_HREF">
+</head>
+<body>
+<!-- This script loads the Flutter app -->
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
